@@ -4,7 +4,7 @@ interface ObjetoQualquer {
 }
 
 const funcaoTeste = (param1: number, param2?: number): number => {
-  if(!param2) {
+  if (!param2) {
     return param1;
   }
 
@@ -12,8 +12,7 @@ const funcaoTeste = (param1: number, param2?: number): number => {
 };
 
 const objetoQualquer: ObjetoQualquer = {
-    funcao: funcaoTeste,
+  funcao: funcaoTeste,
 };
 
-
-console.log(objetoQualquer.funcao(1,4))
+console.log(objetoQualquer.funcao(1, 4));
