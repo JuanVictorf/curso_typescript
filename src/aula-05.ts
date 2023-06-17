@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 interface Estado {
-    nome: string;
+  nome: string;
 }
 
 interface Cidade {
@@ -16,17 +16,16 @@ interface Endereco {
 }
 
 const endereco: Endereco = {
-    bairro: "Alvaro Weyne",
-    rua: "Rua Adolfo Bezerra de Menezes",
-    cidade: {
-        nome: "Fortaleza",
-        estado: {
-            nome: "Ceará",
-        }
-    }
-}
-
+  bairro: "Alvaro Weyne",
+  rua: "Rua Adolfo Bezerra de Menezes",
+  cidade: {
+    nome: "Fortaleza",
+    estado: {
+      nome: "Ceará",
+    },
+  },
+};
 
 console.log(endereco);
 console.log(endereco.complemento?.substring(3) || "Não foi passado complemento");
-console.log(endereco.cidade.estado)
+console.log(endereco.cidade.estado);
