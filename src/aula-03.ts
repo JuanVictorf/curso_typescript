@@ -3,7 +3,6 @@ interface Pessoa {
   idade: number;
   nome: string;
   isMaiorIdade: boolean;
-
 }
 
 const pessoa: Pessoa = {
@@ -13,4 +12,4 @@ const pessoa: Pessoa = {
 };
 
 console.log(pessoa);
-console.log("Idade da pessoa: ",  pessoa.idade)
+console.log("Idade da pessoa: ", pessoa.idade);
