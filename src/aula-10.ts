@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-type MarcaTenis = "abc" | "def" | "ghi";
+//type MarcaTenis = "abc" | "def" | "ghi";
 
 enum Marcatenis2 {
   ABC = "abc",
@@ -8,13 +8,14 @@ enum Marcatenis2 {
 }
 
 interface Tenis {
-    marcaTenis: Marcatenis2
+  marcaTenis: Marcatenis2;
 }
 
 const test: Tenis = {
-    marcaTenis: Marcatenis2.ABC
+  marcaTenis: Marcatenis2.ABC,
 };
 
-if(test.marcaTenis === 'abc') {
-    console.log("É abc.");
+if (test.marcaTenis === "abc") {
+  console.log("É abc.");
 }
+
